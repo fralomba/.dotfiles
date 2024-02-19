@@ -92,7 +92,7 @@ if [ "$PLATFORM"  = 'mac' ]; then
     export PATH="/usr/local/sbin:$PATH"
 
     #Ruby
-    export PATH="/usr/local/opt/ruby/bin:$PATH"
+    export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 elif [ "$PLATFORM"  = 'linux' ]; then
     export PATH=~/.gem/bin:$PATH # Ruby gems if installed with snap
 fi
