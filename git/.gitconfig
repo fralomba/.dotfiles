@@ -4,8 +4,8 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 [user]
-	name = Luca Angioloni
-	email = lucaangioloni@gmail.com
+	name = Francesco Lombardi
+	email = franci.lomba23894@gmail.com
 	# signingkey = xxxxxxxxxxxxxxxxx
 [pull]
 	rebase = false

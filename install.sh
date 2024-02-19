@@ -1,14 +1,14 @@
 #!/bin/zsh
 #
 # This script should be run via curl:
-#   zsh -c "$(curl -fsSL https://raw.githubusercontent.com/LucaAngioloni/.dotfiles/main/install.sh)"
+#   zsh -c "$(curl -fsSL https://raw.githubusercontent.com/fralomba/.dotfiles/main/install.sh)"
 # or via wget:
-#   zsh -c "$(wget -qO- https://raw.githubusercontent.com/LucaAngioloni/.dotfiles/main/install.sh)"
+#   zsh -c "$(wget -qO- https://raw.githubusercontent.com/fralomba/.dotfiles/main/install.sh)"
 # or via fetch:
-#   zsh -c "$(fetch -o - https://raw.githubusercontent.com/LucaAngioloni/.dotfiles/main/install.sh)"
+#   zsh -c "$(fetch -o - https://raw.githubusercontent.com/fralomba/.dotfiles/main/install.sh)"
 #
 # As an alternative, you can first download the install script and run it afterwards:
-#   wget https://raw.githubusercontent.com/LucaAngioloni/.dotfiles/main/install.sh
+#   wget https://raw.githubusercontent.com/fralomba/.dotfiles/main/install.sh
 #   zsh install.sh
 set -e
 
@@ -351,7 +351,7 @@ if [ ! -d "$HOME/.config/nvim" ]; then
 fi
 
 echo $fg[green]"Installing .dotfiles..."$reset_color
-git clone https://github.com/LucaAngioloni/.dotfiles.git ~/.dotfiles
+git clone https://github.com/fralomba/.dotfiles.git ~/.dotfiles
 if [ -f ~/.zshrc ]; then
     mv ~/.zshrc ~/.zshrc.bak
 fi

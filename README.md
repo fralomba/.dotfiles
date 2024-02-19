@@ -15,7 +15,7 @@ You need to have **zsh** installed!
 Install using the [install script](install.sh):
 
 ```bash
-zsh -c "$(curl -fsSL https://raw.githubusercontent.com/LucaAngioloni/.dotfiles/main/install.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/fralomba/.dotfiles/main/install.sh)"
 ```
 
 This will install all the dependencies, _tools_ and _dotfiles_.
